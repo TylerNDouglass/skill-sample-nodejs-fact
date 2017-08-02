@@ -7,11 +7,11 @@ var Alexa = require('alexa-sdk');
 
 //Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.  
 //Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
-var APP_ID = undefined;
+var APP_ID = "amzn1.ask.skill.94816c36-2b0c-490d-bdf4-45d6f572e1f1";
 
 var SKILL_NAME = "Space Facts";
 var GET_FACT_MESSAGE = "Here's your fact: ";
-var HELP_MESSAGE = "You can say tell me a space fact, or, you can say exit... What can I help you with?";
+var HELP_MESSAGE = "You can say tell me a Tim Melia fact, or, you can say exit... What can I help you with?";
 var HELP_REPROMPT = "What can I help you with?";
 var STOP_MESSAGE = "Goodbye!";
 
@@ -19,19 +19,27 @@ var STOP_MESSAGE = "Goodbye!";
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
 //=========================================================================================================================================
 var data = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "His full name is Timothy. But, I feel you could have guessed that.",
+    "He is 31, not too old, not too young. Just right!.",
+    "The guy can make epic saves. If you think you're going to have an easy time with Timmy, think again!.",
+    "Hartzell Gray pronounces his name Tim Meeeeeeeeeeeeeelia.",
+    "He has been with Sporting since 2015 and made 65 appearances.",
+    "He past teams include Chivas USA, FC New York, Charleston Battery, Real Salt Lake, Rochester Rhinos and the Long Island Rough Rhiders.",
+    "Tim played college soccer for the Oneonta Red Dragons and the Lynn Fighting Knights.",
+    "He is just the best.",
+    "My dude Tim is on track to break records.",
+    "Tim received his call up from the league goalie pool after two of Sporting Kansas City's goal keepers were injured.",
+    "He was the 2015 MLS Comeback Player Of The Year.",
+    "He is better than your no-name goalie.",
+    "He IS the BEST goalie in the MLS and was snubbed from the 2017 All-Star game.",
+    "Follow him on Twitter, @TIMMELIA28.",
+    "Bro, he saves 80% of all shots on goal.",
+    "Number One in the league for Clean Sheets (as of August 1st), with 9 shut outs...Also, number one in your heart.",
+    "Good ole Timmy has made 67 saves this year... which puts him at tied for 5th. Dude, no one really wants that many saves. That means the defense is horrible!",
+    "Tim makes about 165K, which is more than you Sally!",
+    "This guy could go toe-to-toe against the best striker in the land and not concede a goal.",
+    "If I had to pick between Tim Melia saving goals for Sporting and marrying my dream girl, I'd crack a Boulevard in the Member's Stand and start chanting I believe!"
+
 ];
 
 //=========================================================================================================================================
